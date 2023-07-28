@@ -7,7 +7,7 @@ For this lab, you will be expected to complete the following methods:
 - negativeAnswer(int magicNum)
 - neutralAnswer(int magicNum)
 
-For instructions on completing these methods, see the Javadoc here **ADD LINK HERE**
+For instructions on completing these methods, see the [Javadoc](https://csu-compsci-cs163-4.github.io/Lab03Magic8/).
 
 # Step 2 -- Testing
 Make sure to test your work. Some of the methods are tested for you in main, but be sure to add your own tests!
