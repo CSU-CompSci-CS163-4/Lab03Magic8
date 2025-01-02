@@ -45,9 +45,9 @@ public class Magic8Ball {
 
     /**
      *  For this method, you will decide which negative message to return depending on the following conditions:
-     *  if magicNum is less than 5, return "Very doubtful"
-     *  if magicNum is equal to 5, return "Don't count on it."
-     *  if magicNum is 6-43 (inclusive), return "My reply is no."
+     *  if magicNum is less than 4, return "Very doubtful"
+     *  if magicNum is equal to 4, return "Don't count on it."
+     *  if magicNum is 5-43 (inclusive), return "My reply is no."
      *  if magicNum is between 43-89 (exclusive), return "My sources say no."
      *  if magic num is 89 or greater, return "Outlook not so good."
      *
@@ -57,7 +57,7 @@ public class Magic8Ball {
      * @return the appropriate string for the conditions
      */
     public String negativeAnswer(int magicNum){
-        if (magicNum < 5){
+        if (magicNum < 4){
             return "Very doubtful";
         }
         return "";
@@ -65,9 +65,9 @@ public class Magic8Ball {
 
     /**
      * For this method, you will decide which neutral message to return depending on the following conditions:
-     * if magicNum is less than 22, return "Concentrate and ask again."
-     * if magicNum is equal to 22, return "Reply hazy, try again."
-     * if magicNum is 23-35 (inclusive), return "Ask again later."
+     * if magicNum is less than 23, return "Concentrate and ask again."
+     * if magicNum is equal to 23, return "Reply hazy, try again."
+     * if magicNum is 24-35 (inclusive), return "Ask again later."
      * if magicNum is between 35-62 (exclusive), return "Better not tell you now."
      * if magic num is 62 or greater, return "Cannot predict now."
      *
@@ -77,7 +77,7 @@ public class Magic8Ball {
      * @return the appropriate string for the conditions
      */
     public String neutralAnswer(int magicNum){
-        if (magicNum < 22){
+        if (magicNum < 23){
             return "Concentrate and ask again.";
         }
         return "";
