@@ -64,7 +64,7 @@ public class Magic8Ball {
     }
 
     /**
-     * For this method, you will decide which neutral message to return depending on the following conditions:
+     * For this method, you will decide which positive message to return depending on the following conditions:
      * if magicNum is less than 23, return "Concentrate and ask again."
      * if magicNum is equal to 23, return "Reply hazy, try again."
      * if magicNum is 24-35 (inclusive), return "Ask again later."
