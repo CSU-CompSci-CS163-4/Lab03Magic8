@@ -44,10 +44,10 @@ public class Magic8Ball {
     }
 
     /**
-     *  For this method, you will decide which negative message to return depending on the following conditions:
+     *  For this method, you will decide which positive message to return depending on the following conditions:
      *  if magicNum is less than 4, return "Very doubtful"
      *  if magicNum is equal to 4, return "Don't count on it."
-     *  if magicNum is 5-43 (inclusive), return "My reply is no."
+     *  if magicNum is 6-43 (inclusive), return "My reply is no."
      *  if magicNum is between 43-89 (exclusive), return "My sources say no."
      *  if magic num is 89 or greater, return "Outlook not so good."
      *
