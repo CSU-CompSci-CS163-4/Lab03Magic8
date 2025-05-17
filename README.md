@@ -14,4 +14,4 @@ Make sure to test your work. Some of the methods are tested for you in main, but
 For this lab, running main will allow you to run go(), which should call your methods. However, because go() uses a random generator, it is recommended that you write additional tests with known numbers. Make sure to test the edge cases!
 
 # Step 3 -- Turning It In
-Once you're done writing and testing the methods, go ahead and submit your files to Zybooks!
+Once you're done writing and testing the methods, go ahead and submit your zip file containing your code to Canvas!
